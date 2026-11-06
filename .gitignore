@@ -1,0 +1,10 @@
+history.log
+history.txt
+run-logged.function.sh
+run-logged.sh
+*.log
+.DS_Store
+__pycache__/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
