@@ -320,3 +320,9 @@ MIT — see `LICENSE` for details.
 **Made with Python, curiosity, a terminal, and 12.07 GB of existential questions.**
 
 *Moins de doublons, plus de liberté. Menos basura, más espacio.*
+
+### Performance update — November 2026
+
+The original cleanup script had a small problem: deleting 130,000 duplicate files could take hours because it repeatedly recalculated SHA-256 hashes.
+
+The optimized version calculates hashes once, verifies the retained files, and processes duplicates without unnecessary repeated comparisons.
